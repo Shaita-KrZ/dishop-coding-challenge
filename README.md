@@ -39,7 +39,7 @@ Les pages doivent également être utilisables sur les appareils mobiles et tabl
 
 ### Page "Accueil"
 
-Reportez-vous à l'écran [screens/1-home.jpg](./screens / 1-home.jpg).
+Reportez-vous à l'écran [screens/1-home.jpg](./screens/1-home.jpg).
 
 Ce sera votre écran `index.html`.
 
@@ -47,7 +47,7 @@ Vous devrez afficher les composants qui pointent vers la page "Série" et la pag
 
 ### Pages "Série" et "Films"
 
-Reportez-vous aux écrans [screens/2-series.jpg](./screens / 2-series.jpg) et [screens/3-movies.jpg](./screens / 3-movies.jpg).
+Reportez-vous aux écrans [screens/2-series.jpg](./screens/2-series.jpg) et [screens/3-movies.jpg](./screens/3-movies.jpg).
 
 Pour chaque page, vous devrez récupérer le fichier JSON dans ./feed/sample.json, puis:
 
@@ -70,7 +70,7 @@ Les attributs que vous devez utiliser pour afficher les entrées sont:
 
 Vous devrez également gérer les états de chargement et d'erreur lors de la récupération du fichier JSON:
 
-- État "Chargement" [screens/1.1-loading.jpg](./screens /1.1-loading.jpg)
+- État "Chargement" [screens/1.1-loading.jpg](./screens/1.1-loading.jpg)
 - État "Erreur" [screens/1.2-error.jpg](./screens/1.2-error.jpg)
 
 ## FAQ
