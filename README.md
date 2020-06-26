@@ -6,17 +6,17 @@
 
 Pour relever ce défi, vous devrez écrire une simple application Web en [React](https://facebook.github.io/react/) et nous fournir les fichiers sources.
 
-Le but de ce défi est d'évaluer vos ** compétences et votre approche pour composer une simple application Web ** à partir d'un ensemble d'écrans et d'un flux API. Nous évaluerons également la sortie ** générée HTML, CSS et JS **.
+Le but de ce défi est d'évaluer vos **compétences et votre approche pour composer une simple application Web** à partir d'un ensemble d'écrans et d'un fichier JSON.
 
 Ce défi devrait prendre environ 2 à 4 heures.
 
 ## Le défi
 
-C'est assez simple. En utilisant les écrans fournis comme référence, vous devrez créer un ensemble de composants React. Vous devrez également demander un flux JSON, filtrer ces données et utiliser les champs appropriés.
+C'est assez simple. En utilisant les écrans fournis comme référence, vous devrez créer un ensemble de composants React. Vous devrez également utiliser un fichier JSON, filtrer ces données et utiliser les champs appropriés.
 
-Bien qu'il s'agisse d'un exercice de base, nous chercherons ** du code simple, bien conçu, performant et testé ** dans la soumission.
+Bien qu'il s'agisse d'un exercice de base, nous chercherons **du code simple, bien conçu, performant et testé**.
 
-Veuillez inclure un <README> avec des instructions de configuration et tous les tests ou autres documents que vous avez créés dans le cadre de votre solution.
+Veuillez inclure un `README` avec des instructions de configuration et tous les tests ou autres documents que vous avez créés dans le cadre de votre solution.
 
 Ajoutez également les informations suivantes à votre `README`:
 
@@ -33,45 +33,45 @@ Vous devrez créer les 3 pages suivantes avec React:
 - Une page "Films"
 
 Veuillez créer des composants pour chaque partie de la page (par exemple, en-tête, contenu, pied de page, etc.).
-Les assets (images etc) sont fournis dans le dossier `assets`.
+Les assets sont fournis dans le dossier `assets`.
 
 Les pages doivent également être utilisables sur les appareils mobiles et tablettes.
 
 ### Page "Accueil"
 
-Reportez-vous à l'écran [screens / 1-home.jpg] (./ screens / 1-home.jpg).
+Reportez-vous à l'écran [screens / 1-home.jpg](./ screens / 1-home.jpg).
 
 Ce sera votre écran `index.html`.
 
-Vous devrez afficher 2 tuiles, qui pointent vers la page "Série" et la page "Films".
+Vous devrez afficher les composants qui pointent vers la page "Série" et la page "Films".
 
 ### Pages "Série" et "Films"
 
-Reportez-vous aux écrans [screens / 2-series.jpg] (./ screens / 2-series.jpg) et [screens / 3-movies.jpg] (./ screens / 3-movies.jpg).
+Reportez-vous aux écrans [screens / 2-series.jpg](./ screens / 2-series.jpg) et [screens / 3-movies.jpg](./ screens / 3-movies.jpg).
 
-Pour chaque page, vous devrez récupérer le fichier JSON dans /feed/sample.json, puis:
+Pour chaque page, vous devrez récupérer le fichier JSON dans ./feed/sample.json, puis:
 
-- Afficher les 21 premières `entrées`
+- Afficher les 21 premières `entries`
 - Lorsque l'entrée a une valeur d'attribut «releaseYear»> = «2010»
 - Trié par la valeur d'attribut `title` dans l'ordre alphanumérique croissant
 
 Pour le filtre de page "Série" sur:
 
-- Lorsque l'entrée a une valeur d'attribut `programType` de`series`
+- Lorsque l'entrée a une valeur d'attribut `programType` égale à `series`
 
 Pour le filtre de page "Films" sur:
 
-- Lorsque l'entrée a une valeur d'attribut `programType` de`movie`
+- Lorsque l'entrée a une valeur d'attribut `programType` égale à `movie`
 
 Les attributs que vous devez utiliser pour afficher les entrées sont:
 
 - `title`
-- `images` →`Affiche d'art` → `url`
+- `images` →`Poster Art` → `url`
 
 Vous devrez également gérer les états de chargement et d'erreur lors de la récupération du fichier JSON:
 
-- État "Chargement" [screens / 1.1-loading.jpg] (./ screens / 1.1-loading.jpg)
-- État "Erreur" [screens / 1.2-error.jpg] (./ screens / 1.2-error.jpg)
+- État "Chargement" [screens / 1.1-loading.jpg](./ screens / 1.1-loading.jpg)
+- État "Erreur" [screens / 1.2-error.jpg](./ screens / 1.2-error.jpg)
 
 ## FAQ
 
