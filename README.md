@@ -73,6 +73,13 @@ Vous devrez également gérer les états de chargement et d'erreur lors de la r�
 - État "Chargement" [screens/1.1-loading.jpg](./screens/1.1-loading.jpg)
 - État "Erreur" [screens/1.2-error.jpg](./screens/1.2-error.jpg)
 
+### Mode expert
+
+Pour relever ce défi, il vous est demandé en plus de l'application Web:
+
+- Créer un serveur en [NodeJS](https://nodejs.org/en/) avec une API permettant de récupérer les données du [fichier JSON](./feed/sample.json).
+- Ajouter une barre de recherche pour chercher un film ou une série par son nom.
+
 ## FAQ
 
 ### Quel langage, framework, outil de construction ... dois-je utiliser?
