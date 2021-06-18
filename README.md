@@ -91,6 +91,7 @@ Vous pouvez utiliser ce que vous voulez tant que la solution est construite en u
 - [Bitbucket](https://bitbucket.org/) - Hébergement de code source, avec des dépôts privés gratuits pour les petites équipes.
 - [Google Fonts - Raleway](https://fonts.google.com/?selection.family=Raleway)
 - [React](https://facebook.github.io/react/)
+- [Dishop](https://dishop.co)
 
 ## Autres notes
 
